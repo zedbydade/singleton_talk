@@ -12,13 +12,13 @@ cat = Animal.new('cat')
 cat.sound
 
 class Animal 
-  @@sound = []
+  @@color = []
   def intiialize(name)
     @name = name
   end
 
-  def self.sound(sound) 
-    @@sound << sound
+  def self.color(color) 
+    @@sound << color
   end
 
   def sound 
@@ -27,14 +27,14 @@ class Animal
 end
 
 cat = Animal.new('cat')
-Animal.sound('auau')
+Animal.color('black')
 
 def cat.tu 
   'turu'
 end
 
-cat = Animal.new('miau')
-dog = Animal.new('auau')
+cat = Animal.new('Nix')
+dog = Animal.new('Arch')
 
 def dog.sound 
   'auau'
